@@ -204,15 +204,15 @@ div#hero-carousel {
 }
 
 .one {
-    background:  linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("/sup.jpeg.jpg") no-repeat center top/cover;
+    background:  linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("sup.jpeg.jpg") no-repeat center top/cover;
 }
 
 .two {
-    background:  linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("/close-up-hands-holding-hardware-components.jpg") no-repeat center top/cover;
+    background:  linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("close-up-hands-holding-hardware-components.jpg") no-repeat center top/cover;
 }
 
 .three {
-    background:  linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("/jungle.jpg") no-repeat center top/cover;
+    background:  linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("jungle.jpg") no-repeat center top/cover;
 }
 
 .text-carousel {
@@ -319,7 +319,7 @@ div.about {
 div.about .about-image {
     width: 500px;
     height: 550px;
-    background: radial-gradient(rgba(11, 1, 11, 0.5), rgba(11, 11, 11, 0.8)), url("/happy.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(11, 1, 11, 0.5), rgba(11, 11, 11, 0.8)), url("happy.jpg") no-repeat center center/cover;
     border-radius: 4px;
     margin-bottom: 70px;
 }
@@ -403,7 +403,7 @@ div.service a .inner-service {
 div.service a .inner-service .service-image {
     width: 350px;
     height: 400px;
-    background: radial-gradient(rgba(2, 1, 1, 0.5), rgba(2, 1, 1, 1)), url("/man-electrical-technician-working-switchboard-with-fuses.jpg");
+    background: radial-gradient(rgba(2, 1, 1, 0.5), rgba(2, 1, 1, 1)), url("man-electrical-technician-working-switchboard-with-fuses.jpg");
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,28 +412,28 @@ div.service a .inner-service .service-image {
 
 
 div.service a .inner-service .one {
-    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("/man-electrical-technician-working-switchboard-with-fuses.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("man-electrical-technician-working-switchboard-with-fuses.jpg") no-repeat center center/cover;
 }
 
 div.service a .inner-service .two {
-    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("/worker-is-cutting-wires-with-linemans-pliers.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("worker-is-cutting-wires-with-linemans-pliers.jpg") no-repeat center center/cover;
 }
 
 
 div.service a .inner-service .three {
-    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("/man-with-white-helmet-near-solar-panel.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("man-with-white-helmet-near-solar-panel.jpg") no-repeat center center/cover;
 }
 
 div.service a .inner-service .four {
-    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("/download.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("download.jpg") no-repeat center center/cover;
 }
 
 div.service a .inner-service .five {
-    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("/auditing.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("auditing.jpg") no-repeat center center/cover;
 }
 
 div.service a .inner-service .six {
-    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("/expert-looks-online-new-air-filters.jpg") no-repeat center center/cover;
+    background: radial-gradient(rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.65)), url("expert-looks-online-new-air-filters.jpg") no-repeat center center/cover;
 }
 
 
@@ -533,7 +533,7 @@ div.gallery {
 
 div.gallery {
     height: 70vh;
-    background: linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("/shake.jpg") no-repeat fixed center top/cover; 
+    background: linear-gradient(rgba(1, 41, 131, 0.6), rgba(3, 41, 141, 0.7)), url("shake.jpg") no-repeat fixed center top/cover; 
     padding: 20px;
     border-top-left-radius: 2px;
     border-bottom-right-radius: 2px;
