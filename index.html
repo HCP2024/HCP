@@ -1,0 +1,315 @@
+
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>HCP</title>
+        <link rel="icon" type="image" href="hcp.png">
+        <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        
+        <link rel="stylesheet" href="/HCP.css">
+      </head>
+      <body>
+          <nav>
+             <div class="container">
+                 <div class="nav-logo">
+                <img src="hcp.png" alt="HCP logo">
+                  </div>
+              
+              
+              <div class="nav-items d-lg-flex d-none">
+                <div class="item activeOne">
+                    <a href='#home'>Home</a>
+                  </div>
+                 <div class="item ">
+                    <a href='#company'>Company</a>
+                  </div>
+                  <div class="item">
+                    <a href='#service'>Services</a>
+                  </div>
+                  <div class="item">
+                    <a href='#contact' class="contactUs btn btn-primary">Contact Us</a>
+                  </div>
+                  <!--<div class="item">
+                    <a href='/Articles'>Articles</a>
+                  </div>-->
+              </div>
+                 
+                <div class="mobile-toggler d-lg-none">
+                   <a class="iconer" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class='fa-solid fa-bars' id="icon"></i></a>
+                 </div>
+                 <div class="offcanvas-lg offcanvas-end d-lg-none" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+<div class="offcanvas-header" id="sidebar">
+  <h5 class="offcanvas-title" id="offcanvasResponsiveLabel"></h5>
+    <div id="close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"><i class="fa-solid fa-xmark"></i></div>
+</div>
+<div class="offcanvas-body">
+    <div class="nav-items1 d-lg-flex d-block">
+                <div class="item activeOne">
+                    <a href='#home'>Home</a>
+                  </div>
+                 <div class="item activeTwo">
+                    <a href='#company'>Company</a>
+                  </div>
+                  <div class="item activeTwo">
+                    <a href='#service'>Services</a>
+                  </div>
+                  <div class="item contactUs">
+                    <a href='#contact' class="btn btn-primary">Contact Us</a>
+                  </div>
+              </div>
+</div>
+</div>
+                 
+          </div>
+        </nav>
+          <div id="hero-carousel" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval='7000'>
+              
+              <div class="carousel-indicators d-none" id="btn-indicators">
+  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+  <div class="carousel-item active c-item">
+    <div class="d-block w-100 c-img one img-responsive">
+      </div>
+      <div class="text-carousel carousel-caption top-0 d-md-block">
+      <h5 class="animate__animated animate__zoomInUp animate__delay-2s">Welcome  To Higher Circuit Professionals</h5>
+          <p class="animate__animated animate__zoomInUp animate__delay-2s">The Sparkling Solution for all your Electrical and Electronic Needs.</p>
+          <div><a href="#company"><i class='fa-solid fa-angle-down animate__animated animate__bounceInDown animate__delay-2s animate__infinte'></i></a></div>
+    </div>
+  </div>
+  <div class="carousel-item c-item">
+    <div class="d-block w-100 c-img two img-responsive">
+      </div>
+      <div class="text-carousel carousel-caption top-0 d-md-block">
+      <p class="animate__animated animate__zoomInUp animate__delay-2s para">We strive for a better world With our services of good quality.</p>
+          <div><a href="#company"><i class='fa-solid fa-angle-down animate__animated animate__bounceInDown animate__delay-2s animate__infinte'></i></a></div>
+    </div>
+  </div>
+  <div class="carousel-item c-item">
+    <div class="d-block w-100 c-img three img-responsive">
+      </div>
+      <div class=" text-carousel carousel-caption top-0 d-md-block">
+          <p class="animate__animated animate__zoomInUp animate__delay-2s para">As our client your happiness is our satisfaction.</p>
+          <div><a href="#company"><i class='fa-solid fa-angle-down animate__animated animate__bounceInDown animate__delay-2s animate__infinte'></i></a></div>
+    </div>
+  </div>
+</div>
+<button class="carousel-control-prev d-none" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next d-none" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+<div class="scrollUp">
+           <i class="fa-solid fa-angle-up"></i>
+          </div>
+<!-- About the Company -->
+<div class="company container" id="company">
+  <div class="about row">
+     <div class="about-image col-lg-6 col-sm-12 img-responsive img-rounded"  data-aos='fade-right' data-aos-duration="200" data-aos-easing="linear">
+        <!-- <img class='img-rounded img-responsive' src="happy.jpg" alt="about">-->
+      </div>
+      <div class="about-text col-lg-6 col-sm-0 text-center">
+        <h4 class="mt-9" data-aos='fade-left' data-aos-duration="500" data-aos-easing="linear">About Our Company</h4>
+          <p class="about-para1" data-aos='fade-left' data-aos-duration="1000">Higher Circuit Professionals is an electrical and electronics company. We provide sparkling solutions to faults related to both electrical and electronics no matter the rate and location.</p>
+          <p class="about-para2" data-aos='fade-left' data-aos-duration="1000">We manufacture and supply the most durable and efficient electronic components to our clients. We enroll individuals interested in Skills learning and development tutorials related to electrical and electronics engineering.</p>
+          <a class="btn btn-primary" id="companyBtn" data-aos='fade-left' data-aos-duration="1000" href="#company">More About Our Company</a>
+      </div>
+  </div>
+</div>
+
+<div class="service container" id="service">
+  <h4 data-aos='fade-up' data-aos-duration="500"><span>Available Services</span><br>We Render</h4>
+<div class="outer-service d-flex flex-lg-row flex-sm-column justify-content-lg-around">
+    <a href="#">
+ <div class="inner-service text-center" data-aos='fade-right' data-aos-duration="750">
+    <div class="service-image one">
+       <div class="service-cover"></div>
+     </div>
+     <div class="service-text">
+        <h3>Electrical Installation and Maintenance</h3>
+         <p>Click to know more.</p>
+     </div>
+  </div>
+      </a>
+    <a href="#">
+    <div class="inner-service text-center" data-aos='fade-left' data-aos-duration="750">
+    <div class="service-image two">
+       <div class="service-cover"></div>
+     </div>
+     <div class="service-text">
+        <h3>Wiring(Surface and Conduit)</h3>
+         <p>Click to know more.</p>
+     </div>
+  </div>
+        </a>
+  </div>
+  <div class="outer-service d-flex flex-lg-row flex-sm-column justify-content-lg-around">
+      <a>
+ <div class="inner-service text-center" data-aos='fade-right' data-aos-duration="750">
+    <div class="service-image three">
+       <div class="service-cover"></div>
+     </div>
+     <div class="service-text">
+        <h3>Solar Installation</h3>
+         <p>Click to know more.</p>
+     </div>
+  </div>
+      </a>
+      <a>
+    <div class="inner-service text-center" data-aos='fade-left' data-aos-duration="750">
+    <div class="service-image four">
+       <div class="service-cover"></div>
+     </div>
+     <div class="service-text">
+        <h3>Inverter Installation</h3>
+         <p>Click to know more.</p>
+     </div>
+  </div> 
+  </a>
+  </div>
+
+  <div class="outer-service d-flex flex-lg-row flex-sm-column justify-content-lg-around">
+      <a>
+ <div class="inner-service text-center" data-aos='fade-right' data-aos-duration="750">
+    <div class="service-image five">
+       <div class="service-cover"></div>
+     </div>
+     <div class="service-text">
+        <h3>Energy Audit and Efficiency Consulting</h3>
+         <p>Click to know more.</p>
+     </div>
+  </div>
+      </a>
+      <a>
+    <div class="inner-service text-center" data-aos='fade-left' data-aos-duration="750">
+    <div class="service-image six">
+       <div class="service-cover"></div>
+     </div>
+     <div class="service-text">
+        <h3>Power Upgrade for Buildings</h3>
+         <p>Click to know more.</p>
+     </div>
+  </div> 
+      </a>
+  </div> 
+</div>
+
+<div class="contact container-fluid" id="contact">
+  <h4 data-aos='fade-up' data-aos-duration="500">Want To Reach Us?<br><span>Contact Here</span></h4>
+    <div class="outer-contact d-lg-flex justify-content-around">
+    <div class="inner-contact">
+        <div class="contact-item" data-aos='fade-up' data-aos-duration="1000">
+            <i class="fa-solid fa-phone"></i><p class="text-center">09136090197</p>
+        </div>
+        </div>
+        
+        <div class="inner-contact" data-aos='fade-up' data-aos-duration="1000">
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i><br><p class="text-center">highercircuitprofessionals@gmail.com</p>
+        </div>
+        </div>
+            <div class="inner-contact" data-aos='fade-up' data-aos-duration="1000">
+        <div class="contact-item">
+          <i class="fa-solid fa-location-pin"></i><br><p class="text-center">Cross River, Calabar</p>
+        </div>
+  </div>        
+</div>
+  </div>    
+          <div class="gallery container-fluid img-responsive" id="gallery">
+            <div class="inner-gallery">
+                <h4 data-aos='fade-up' data-aos-duration="1000">Check Out Our Updates and Gallery</h4>
+                <div class="gallery-contact" data-aos='fade-up' data-aos-duration="1000">
+                  <p class="gag">Want To Get Info About The Activities of Higher Circuit Professionals?</p> 
+                    <p><a class="btn btn-primary text-center" href="#gallery" id="newupBtn"><i class="text-center">Click Here</i></a></p>
+                </div>
+              
+              </div>
+          
+          </div>
+          
+          <footer class="footer container-fluid" id="footer" data-aos='fade-up' data-aos-duration="1000">
+            <div class="outer-footer">
+                <ul class="inner-footer d-flex justify-content-around">
+                    <li><a href="#footer">Home</a></li>
+                    <li><a href="#footer">About</a></li>
+                    <li><a href="#footer">Service</a></li>
+                    <li><a href="#footer">Contact Us</a></li>
+                </ul>
+                <div class="follow-link">
+                    <p>Follow Us On</p>
+                  <ul class="d-flex justify-content-center">
+                      <li><a href="#footer"><i class="fa fa-facebook"></i></a></li>
+                       <li><a href="#footer"><i class="fa fa-whatsApp"></i></a></li>
+                       <li><a href="#footer"><i class="fa fa-Instagram"></i></a></li>
+                       <li><a href="#footer"><i class="fa fa-Twitter"></i></a></li>
+                    </ul>
+                </div>
+              </div>
+              <p><small>&copy; 2024 Higher Circuit Professionals.</small></p>
+          </footer>
+          
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+          <script type="text/javascript">
+            $('a#companyBtn').click(function(){
+                alert('Sorry our team is currently working on this section of the site.')
+            });
+              
+              $('a#newupBtn').click(function(){
+                alert('Sorry our team is currently working on this section of the site.')
+              });
+              
+              $('#footer').click(function(){
+                alert('Sorry our team is currently working on this section of the site.')
+              });
+              
+              //Scroll top section
+          $(window).scroll(function(){
+              if($(window).scrollTop() > 200){
+                  $('div.scrollUp').fadeIn(300);
+              }else{
+                  $('div.scrollUp').fadeOut(300);
+              }
+          });
+              /*
+              $('a.scrollUp i').click(function(){
+                  $('html').animate({scrollTop:0},1000);
+              });*/
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+          
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script src="https://kit.fontawesome.com/39e20aeda9.js" crossorigin="anonymous"></script>
+          <script>
+           AOS.init();
+         </script>
+          <script>
+              const scrollUp = document.querySelector('div.scrollUp');
+              
+              scrollUp.addEventListener('click', () => {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+              })
+              
+            /*const scrollUp = document.querySelector('.scrollUp');
+              
+              window.addEventListener('scroll', () => {
+                  if(window.pageYOffset > 100){
+                      scrollUp.classList.add('active');
+                  }else{
+                      scrollUp.classList.remove('active');
+                  }
+              })*/
+          </script>
+      </body>
+  </html>
